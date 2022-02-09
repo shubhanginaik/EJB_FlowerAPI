@@ -1,5 +1,9 @@
 # Flower data storage
+## Menu
 ![Menu](./public/Menu_page.png)
+
+## GetAllFlowers
+![AllFlowers](./public/AllFlowers.png)
 ## Naik_Shubhangi_flowers.json
 
 The flowerId is unique
