@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <main>
+        <h1><%= header %></h1>
+        <form action="<%= action %>" method="POST" class="getFlower">
+            <p>
+                <label for="flowerId">Flower Id: </label>
+                <input type="text" 
+                id="flowerId"
+                name="flowerId"
+                size="5" >
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+        <a href="/"><button>Menu</button></a>
+    </main>
+</body>
+</html>

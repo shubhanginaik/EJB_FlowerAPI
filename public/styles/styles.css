@@ -1,0 +1,153 @@
+/******* common styling *******/
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    overflow-y: scroll;
+   
+}
+main{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 50px;
+    background-color: #9bbdf1;
+    position: relative;
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #0a3d77;
+    color: white;
+    margin: 30px;
+    font-family:'Roboto Slab', serif;
+    font-size: 1.2rem;
+    border: none;
+}
+button:hover{
+    background-color: #699bd4;
+}
+h1{
+    font-family: 'Lora', serif;
+    color: #0a3d77;
+    margin: 30px;
+    margin-top: 50px;
+    text-shadow: 1px 0px 1px #3D5B59;
+}
+
+/********** allFlower *******/
+table{
+    font-family: 'Roboto Slab',serif;
+    border-collapse: collapse;
+   height: 100%;
+}
+thead{
+    background-color: #0a3d77;
+    color: white;
+}
+table tr:nth-child(even){
+    background-color: #c99af0;
+}
+table tr:hover{
+    background-color: #be7ef1;
+}
+table tr{
+    height: 50px;
+}
+table th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 1.4rem;
+}
+table td{
+    font-size: 1.2rem;
+}
+table th,td{
+    width: 250px;
+    text-align: left;
+    border: 1px solid rgb(134, 132, 132);
+    padding-left: 8px;
+
+}
+table td:nth-child(5){
+    width: 400px;
+}
+/* flowerPage*/
+p{
+    font-family: 'Roboto Slab', serif;
+   color:rgb(39, 38, 38);
+   font-size: 1.5rem;
+   text-align: left;
+}
+p span{
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 1rem;
+    color: #810d9b;
+}
+/********* getFlower*******/
+.getFlower{
+    display: block;
+    align-items: center;
+}
+.getFlower label{
+    margin-left: 20px;
+}
+.getFlower input{
+    width: 100px;
+    font-family:'Roboto Slab', serif;
+    font-size: 1.4rem;
+    padding: 10px;
+    margin-left: 40px;
+}
+/*******form***********/
+.inputform p{
+   margin: 15px;
+}
+.inputform input{
+    box-shadow:1px 0 1px rgb(78, 78, 78);
+    cursor: text;
+    padding-left: 10px;
+    font-family: 'Roboto Slab' serif;
+    font-size: 1.3rem;
+    height: 50px;
+    overflow: hidden;
+}
+.inputform #flowerId{
+    margin-left: 40px;
+}
+.inputform #name{
+    margin-left: 80px;
+}
+.inputform #stock{
+    margin-left: 83px;
+}
+.inputform #site{
+    margin-left: 104px;
+}
+.inputform #farmer{
+    margin-left: 65px;
+}
+.inputform input:read-only{
+    background-color: rgb(196, 192, 192);
+    box-shadow: 1px 0 1px honeydew;
+    cursor: none;
+}
+/******statusPage*******/
+
+p.error{
+    color: rgb(240, 97, 46);
+}

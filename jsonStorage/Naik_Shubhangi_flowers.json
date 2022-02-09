@@ -1,0 +1,72 @@
+[
+    {
+        "flowerId": 5,
+        "name": "rose",
+        "stock": 20,
+        "site": "garage",
+        "farmer": "Fungus Ltd."
+    },
+    {
+        "flowerId": 7,
+        "name": "violet",
+        "stock": 100,
+        "site": "swamp",
+        "farmer": "Mike Mycelium Ltd."
+    },
+    {
+        "flowerId": 4,
+        "name": "mushroom",
+        "stock": 25,
+        "site": "shady",
+        "farmer": "Poison Ivy & Co."
+    },
+    {
+        "flowerId": 2,
+        "name": "lily-of-the-valley",
+        "stock": 5,
+        "site": "bucket",
+        "farmer": "Viola and Hyacinth Company"
+    },
+    {
+        "flowerId": 3,
+        "name": "marigold",
+        "stock": 10,
+        "site": "sunny",
+        "farmer": "Violet's Garden"
+    },
+    {
+        "flowerId": 6,
+        "name": "toadstool",
+        "stock": 15,
+        "site": "rocky",
+        "farmer": "Rosamunda"
+    },
+    {
+        "flowerId": 1,
+        "name": "tulip",
+        "stock": 30,
+        "site": "half shadow",
+        "farmer": "Roses of Rovaniemi oy"
+    },
+    {
+        "flowerId": 8,
+        "name": "carnation",
+        "stock": 10,
+        "site": "agro",
+        "farmer": "Jetha"
+    },
+    {
+        "flowerId": 9,
+        "name": "alstroemeria",
+        "stock": 30,
+        "site": "apna farm",
+        "farmer": "John"
+    },
+    {
+        "flowerId": 10,
+        "name": "hibiscus",
+        "stock": 50,
+        "site": "mary agro",
+        "farmer": "Mary"
+    }
+]
