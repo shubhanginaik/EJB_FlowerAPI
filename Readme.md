@@ -1,3 +1,4 @@
+This repo contains all the exercises and demo I've done for the node basics and express course as part of the Full Stack Web Development Program at [Business College Helsinki](http://bc.fi).
 # Flower data storage
 ## Menu
 ![Menu](./public/Menu_page.png)
